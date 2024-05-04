@@ -1,9 +1,3 @@
-import discord
-from discord.ext import commands
-import numpy as np
-import statistics
-import cloudscraper
-
 bot = commands.Bot(command_prefix="?", intents=discord.Intents.default())
 
 s = cloudscraper.create_scraper(browser={'custom': 'ScraperBot/1.0'})
